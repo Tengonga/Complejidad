@@ -2,12 +2,12 @@
 public class AlgoritmosBusqueda {
     public static void main(String[] args) {
         /*Defino la matriz*/
-        int[][] miMatrix = {{8,2,4 },
-                           { 5,7,3 },
-                           { 6,0,9 }};
+        int[][] miMatrix =  {{8,2,4 },
+                            { 5,7,3 },
+                            { 6,0,9 }};
 
         //valor a buscar en las matrices
-        int valor = 3;
+        int valor = 11;
 
         // Llamada al método de búsqueda
         int[] resultado = buscarValor(miMatrix, valor);
@@ -19,7 +19,10 @@ public class AlgoritmosBusqueda {
             System.out.println("El elemento " + valor + " no se encuentra en la Matriz");
             System.out.println("Se encuentra en la posición [" + resultado[0] + "][" + resultado[1] + "] con " + resultado[2] + " iteraciones.");
         }
+        System.out.println();
+
     }
+
     //Metodo Para buscar el elemento en matriz
     public static int[] buscarValor(int[][] miMatrix, int valor){
         int counter = 0;
@@ -34,6 +37,7 @@ public class AlgoritmosBusqueda {
                     result[0] = fila;
                     result[1] = col;
                     result[2] = counter; // Guardamos el número total de iteraciones
+                    return result;
                 }
             }
         }

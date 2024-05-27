@@ -4,15 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5c02a7c-18eb-44f9-85db-9b48bef1d9f1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MejorarCosteDeAlgoritmo/MejorarCosteDeAlgoritmo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MejorarCosteDeAlgoritmo/src/AlgoritmoBusqueda21.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MejorarCosteDeAlgoritmo/src/AlgoritmosBusqueda.java" afterDir="false" />
+    <list default="true" id="b5c02a7c-18eb-44f9-85db-9b48bef1d9f1" name="Changes" comment="Complejidad">
+      <change afterPath="$PROJECT_DIR$/MejorarCosteDeAlgoritmo/src/BusquedaBinaria1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MejorarCosteDeAlgoritmo/src/BusquedaBinariaRecursiva.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MejorarCosteDeAlgoritmo/src/CosteBusLineal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MejorarCosteDeAlgoritmo/src/AlgoritmoBusqueda2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MejorarCosteDeAlgoritmo/src/AlgoritmoBusqueda21.java" beforeDir="false" afterPath="$PROJECT_DIR$/MejorarCosteDeAlgoritmo/src/AlgoritmoBusqueda21.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MejorarCosteDeAlgoritmo/src/AlgoritmosBusqueda.java" beforeDir="false" afterPath="$PROJECT_DIR$/MejorarCosteDeAlgoritmo/src/AlgoritmosBusqueda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MejorarCosteDeAlgoritmo/AlgoritmoBusqueda2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MejorarCosteDeAlgoritmo/AlgoritmosBusqueda.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MejorarCosteDeAlgoritmo/AlgoritmosBusqueda.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +30,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Tengonga&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Tengonga/Complejidad.git&quot;,
+    &quot;accountId&quot;: &quot;5aa69663-59d6-4fb2-96bf-a6e335379057&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -40,21 +53,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AlgoritmoBusqueda2.executor": "Coverage",
-    "Application.AlgoritmoBusqueda21.executor": "Run",
-    "Application.AlgoritmosBusqueda.executor": "Run",
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AlgoritmoBusqueda2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AlgoritmoBusqueda21.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AlgoritmosBusqueda.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BusquedaBinaria1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BusquedaBinariaRecursiva.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CosteBusLineal.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
-    <configuration name="AlgoritmoBusqueda2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AlgoritmoBusqueda2" />
+    <configuration name="AlgoritmoBusqueda21" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AlgoritmoBusqueda21" />
       <module name="MejorarCosteDeAlgoritmo" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -62,7 +78,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AlgoritmoBusqueda2" />
+        <item itemvalue="Application.AlgoritmoBusqueda21" />
       </list>
     </recent_temporary>
   </component>
@@ -75,7 +91,20 @@
       <option name="presentableId" value="Default" />
       <updated>1715024718004</updated>
     </task>
+    <task id="LOCAL-00001" summary="Complejidad">
+      <option name="closed" value="true" />
+      <created>1715197052239</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1715197052239</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Complejidad" />
+    <option name="LAST_COMMIT_MESSAGE" value="Complejidad" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/practicaEficiencia$AlgoritmoBusqueda2.ic" NAME="AlgoritmoBusqueda2 Coverage Results" MODIFIED="1715196958314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
