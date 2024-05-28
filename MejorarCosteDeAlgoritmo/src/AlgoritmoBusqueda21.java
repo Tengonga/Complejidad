@@ -4,14 +4,14 @@ public class AlgoritmoBusqueda21 {
     public static void main(String[] args) {
 
         // Definimos las dimensiones de la matriz aleatoria que vamos a crear
-        int m = 100; //filas
-        int n = 100; //columnas
+        int m = 10; //filas
+        int n = 10; //columnas
 
         // Creamos una matriz ordenada de tamaño nxm
         int[][] miMatrix2 = generarMatrizOrdenada(m, n);
 
         //valor a buscar en las matrices
-        int valor = 999;
+        int valor = 3;
 
         // Llamada al método de búsqueda
         int[] resultado = buscarValor(miMatrix2, valor);
@@ -42,7 +42,7 @@ public class AlgoritmoBusqueda21 {
             }
         }
         System.out.println("------------------------------------------------------------");
-        System.out.printf("%s;%d;%s\n", "Promedio Iteraciones", sumarIteracion / (numValores-1), "");
+        System.out.printf("%s;%d;%s\n", "Promedio Iteraciones", sumarIteracion / ((numValores)-1), "");
         System.out.println("------------------------------------------------------------");
     }
 
@@ -55,11 +55,10 @@ public class AlgoritmoBusqueda21 {
 
         for(int fila = 0 ; fila < x ; fila++){
             for(int col=0 ; col < y ; col++){
-                counter++;
+                result[2]++; // Guardamos el número total de iteraciones++;
                 if (miMatrix2[fila][col] == valor){
                     result[0] = fila;
                     result[1] = col;
-                    result[2] = counter; // Guardamos el número total de iteraciones
                     return result;
                 }
             }
@@ -80,6 +79,4 @@ public class AlgoritmoBusqueda21 {
         return matrix;
 
     }
-
-
 }

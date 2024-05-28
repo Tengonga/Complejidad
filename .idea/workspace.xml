@@ -4,16 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5c02a7c-18eb-44f9-85db-9b48bef1d9f1" name="Changes" comment="Complejidad">
-      <change afterPath="$PROJECT_DIR$/MejorarCosteDeAlgoritmo/src/BusquedaBinaria1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MejorarCosteDeAlgoritmo/src/BusquedaBinariaRecursiva.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MejorarCosteDeAlgoritmo/src/CosteBusLineal.java" afterDir="false" />
+    <list default="true" id="b5c02a7c-18eb-44f9-85db-9b48bef1d9f1" name="Changes" comment="Complejidad final">
+      <change afterPath="$PROJECT_DIR$/Grafica de eficiencia.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fit.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graficaImagen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MejorarCosteDeAlgoritmo/src/AlgoritmoBusqueda2.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/MejorarCosteDeAlgoritmo/src/AlgoritmoBusqueda21.java" beforeDir="false" afterPath="$PROJECT_DIR$/MejorarCosteDeAlgoritmo/src/AlgoritmoBusqueda21.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MejorarCosteDeAlgoritmo/src/AlgoritmosBusqueda.java" beforeDir="false" afterPath="$PROJECT_DIR$/MejorarCosteDeAlgoritmo/src/AlgoritmosBusqueda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MejorarCosteDeAlgoritmo/AlgoritmoBusqueda2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MejorarCosteDeAlgoritmo/src/BusquedaBinaria1.java" beforeDir="false" afterPath="$PROJECT_DIR$/MejorarCosteDeAlgoritmo/src/BusquedaBinaria1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MejorarCosteDeAlgoritmo/src/BusquedaBinariaRecursiva.java" beforeDir="false" afterPath="$PROJECT_DIR$/MejorarCosteDeAlgoritmo/src/BusquedaBinariaRecursiva.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MejorarCosteDeAlgoritmo/src/CosteBusLineal.java" beforeDir="false" afterPath="$PROJECT_DIR$/MejorarCosteDeAlgoritmo/src/CosteBusLineal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MejorarCosteDeAlgoritmo/AlgoritmoBusqueda21.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MejorarCosteDeAlgoritmo/AlgoritmoBusqueda21.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MejorarCosteDeAlgoritmo/AlgoritmosBusqueda.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MejorarCosteDeAlgoritmo/AlgoritmosBusqueda.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MejorarCosteDeAlgoritmo/BusquedaBinaria1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MejorarCosteDeAlgoritmo/BusquedaBinaria1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MejorarCosteDeAlgoritmo/BusquedaBinariaRecursiva.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MejorarCosteDeAlgoritmo/BusquedaBinariaRecursiva.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MejorarCosteDeAlgoritmo/CosteBusLineal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MejorarCosteDeAlgoritmo/CosteBusLineal.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +48,9 @@
     &quot;accountId&quot;: &quot;5aa69663-59d6-4fb2-96bf-a6e335379057&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/MejorarCosteDeAlgoritmo/src/CosteBusLineal.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -99,12 +108,44 @@
       <option name="project" value="LOCAL" />
       <updated>1715197052239</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Complejidad">
+      <option name="closed" value="true" />
+      <created>1716807817589</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1716807817589</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Complejidad" />
-    <option name="LAST_COMMIT_MESSAGE" value="Complejidad" />
+    <MESSAGE value="Complejidad final" />
+    <option name="LAST_COMMIT_MESSAGE" value="Complejidad final" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/practicaEficiencia$AlgoritmoBusqueda2.ic" NAME="AlgoritmoBusqueda2 Coverage Results" MODIFIED="1715196958314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />

@@ -7,7 +7,7 @@ public class AlgoritmosBusqueda {
                             { 6,0,9 }};
 
         //valor a buscar en las matrices
-        int valor = 11;
+        int valor = 7;
 
         // Llamada al método de búsqueda
         int[] resultado = buscarValor(miMatrix, valor);
@@ -32,11 +32,10 @@ public class AlgoritmosBusqueda {
 
         for(int fila = 0 ; fila < x ; fila++){
             for(int col=0 ; col < y ; col++){
-                counter++;
+                result[2]++; // Guardamos el número total de iteraciones++;
                 if (miMatrix[fila][col] == valor){
                     result[0] = fila;
                     result[1] = col;
-                    result[2] = counter; // Guardamos el número total de iteraciones
                     return result;
                 }
             }
